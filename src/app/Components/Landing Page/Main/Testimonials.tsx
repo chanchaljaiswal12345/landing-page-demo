@@ -3,6 +3,7 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <div>
+        {/* testimonial part */}
       <div className="flex justify-center  p-4 bg-neutral-900">
                                             <div className="flex flex-col justify-center items-center text-center">
                                                 <div className="text-white text-3xl md:text-5xl font-medium  my-2">What People are Saying</div>
