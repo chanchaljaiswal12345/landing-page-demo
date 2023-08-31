@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+const nextConfig = {
+    images: {
+      domains: ['wp-themes.com'],
+    },
+  }
+  
+  module.exports = nextConfig
+  
