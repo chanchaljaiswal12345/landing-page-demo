@@ -29,8 +29,8 @@ const CardSection = () => {
         content-stretch  
     pt-20
     lg:pt-[120px]
-    pb-12
-    lg:pb-[90px]
+    pb-10
+    lg:pb-[80px]
     relative
     z-20
     overflow-hidden
@@ -40,7 +40,7 @@ const CardSection = () => {
       <div className="flex justify-center ml-8">
             {data.map((item) => {
               return (
-                <div className="w-[20rem] px-4 content-stretch">
+                <div className="font-custom w-[20rem] px-4 content-stretch">
                   <div
                     className="
                     content-stretch
@@ -58,22 +58,16 @@ const CardSection = () => {
                         sm:p-12
                         lg:py-10 lg:px-6
                         xl:p-12
-                        mb-10
+                        // mb-20
                         "
                   >
                     <span className="text-white font-semibold text-lg block mb-4 ">
                       {item.icon}
                     </span>
-                    <span className="text-white font-semibold text-lg block mb-4">
+                    <span className="text-white font-semibold text-lg block mb-4 ">
                       {item.title}
                     </span>
                     <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-                    {/* <h2 className="font-bold text-dark mb-5 text-[42px]">
-                      $59
-                      <span className="text-base text-body-color font-medium">
-                        / year
-                      </span>
-                    </h2> */}
                     <p
                       className="
                            text-base text-body-color

@@ -7,6 +7,9 @@ import Services from './Components/Landing Page/Main/Services';
 import Works from './Components/Landing Page/Main/Works';
 import About from './Components/Landing Page/Main/About';
 import Testimonials from './Components/Landing Page/Main/Testimonials';
+import LatestNews from './Components/Landing Page/Main/LatestNews';
+import Projects from './Components/Landing Page/Main/Projects';
+import Footer from './Components/Landing Page/Main/Footer';
 export default function Home() {
   return (
     <div>
@@ -18,6 +21,9 @@ export default function Home() {
         <Works/>
         <About/>
         <Testimonials/>
+        <LatestNews/>
+        <Projects/>
+        <Footer/>
       </main>
      </CustomLayout>
   </div>

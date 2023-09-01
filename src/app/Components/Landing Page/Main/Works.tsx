@@ -5,7 +5,7 @@ const Works = () => {
    <div>
     <section className="text-gray-600 body-font bg-neutral-900">
   <div className="container px-5 py-24 mx-auto">
-  <header className="text-left mx-auto mb-12 lg:px-20">
+  <header className="text-left mx-auto mb-12 lg:px-20 animate__animated animate__fadeInLeft animate__delay-5s">
             {/* <h2 className="text-2xl leading-normal mb-2 font-bold text-white">Services</h2> */}
             <span className=" decoration-solid text-6xl font-semibold whitespace-nowrap font-custom dark:text-white">
               Works

@@ -5,22 +5,27 @@ const Services = () => {
         <div>
             {/* <!-- component --> */}
 <div id="services" className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-gray-950">
-    <div className="container xl:max-w-6xl mt-0.5 mx-auto px-4">
+    <div className="container xl:max-w-6xl mt-0.5 mx-auto px-4 ">
         {/* <!-- Heading start --> */}
-        <header className=" text-left  mx-auto mb-12 lg:px-20">
+        <header className=" text-left  mx-auto mb-12 lg:px-20 animate__animated animate__fadeInLeft animate__delay-3s">
             {/* <h2 className="text-2xl leading-normal mb-2 font-bold text-white">Services</h2> */}
-            <span className=" decoration-solid font-custom text-6xl font-semibold whitespace-nowrap dark:text-white">
+            <span className=" decoration-solid text-6xl font-semibold whitespace-nowrap font-custom dark:text-white">
               Services
             </span>
-            <p className="text-custom-primary leading-relaxed font-light font-custom text-xl mx-auto  pb-2">OUR SERVICES FOR CLIENTS</p>
+            {/* <span className=" decoration-solid font-custom text-3xl font-semibold whitespace-nowrap dark:text-white">
+              Services
+            </span> */}
+            {/* <p className="text-custom-primary leading-relaxed font-light font-custom text-xl mx-auto  pb-2">OUR SERVICES FOR CLIENTS</p> */}
+            <p className="font-custom text-custom-primary ">OUR SERVICES FOR CLIENTS</p>
         </header>
         {/* <!-- End heading -->
         <!-- row --> */}
-        <div className="flex flex-wrap flex-row -mx-4 text-center">
+        <div className="flex flex-wrap flex-row -mx-4 text-center  ">
             <div className=" px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp  visibility: visible; animation-duration: 1s; animation-name: fadeInUp;" data-wow-duration="1s">
+
                 {/* <!-- service block --> */}
-                <div className="py-8 px-12 mb-12 bg-neutral-900 border-b-4  transform transition duration-300 ease-in-out hover:-translate-y-2">
-                    <div className="inline-block text-white-900 mb-4">
+                <div className="py-8 px-12 mb-12 bg-neutral-900 border-b-4  transform transition duration-300 ease-in-out hover:-translate-y-2 animate__animated animate__fadeInUp animate__delay-4s">
+                    <div className="inline-block text-white-900 mb-4 ">
                         {/* <!-- icon --> */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
@@ -33,7 +38,7 @@ const Services = () => {
             </div>
             <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
                 {/* <!-- service block --> */}
-                <div className="py-8 px-12 mb-12 border-b-4 bg-teal-400 border-b border-neutral-900 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="py-8 px-12 mb-12 border-b-4 bg-teal-400 border-b border-neutral-900 transform transition duration-300 ease-in-out hover:-translate-y-2 animate__animated animate__fadeInUp animate__delay-4s">
                     <div className="inline-block text-black-900 border-b-4 mb-4">
                         {/* <!-- icon --> */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" className="bi bi-chat-square-dots" viewBox="0 0 16 16">
@@ -48,7 +53,7 @@ const Services = () => {
             </div>
             <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;" data-wow-duration="1s" data-wow-delay=".3s">
                 {/* <!-- service block --> */}
-                <div className="py-8 px-12 mb-12 bg-neutral-900 border-b-4 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="py-8 px-12 mb-12 bg-neutral-900 border-b-4 transform transition duration-300 ease-in-out hover:-translate-y-2 animate__animated animate__fadeInUp animate__delay-4s">
                     <div className="inline-block text-white-900 mb-4">
                         {/* <!-- icon --> */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" className="bi bi-badge-ad" viewBox="0 0 16 16">
@@ -63,7 +68,7 @@ const Services = () => {
             </div>
             <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp visibility: visible; animation-duration: 1s; animation-name: fadeInUp;" data-wow-duration="1s">
                 {/* <!-- service block --> */}
-                <div className="py-8 px-12 mb-12 border-b-4 bg-neutral-900 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="py-8 px-12 mb-12 border-b-4 bg-neutral-900 transform transition duration-300 ease-in-out hover:-translate-y-2 animate__animated animate__fadeInUp animate__delay-4s">
                     <div className="inline-block text-white-900 mb-4">
                         {/* <!-- icon --> */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" className="bi bi-card-checklist" viewBox="0 0 16 16">
@@ -78,7 +83,7 @@ const Services = () => {
             </div>
             <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;" data-wow-duration="1s" data-wow-delay=".1s">
                 {/* <!-- service block --> */}
-                <div className="py-8 px-12 mb-12 border-b-4 bg-neutral-900  transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="py-8 px-12 mb-12 border-b-4 bg-neutral-900  transform transition duration-300 ease-in-out hover:-translate-y-2 animate__animated animate__fadeInUp animate__delay-4s">
                     <div className="inline-block text-white-900 mb-4">
                         {/* <!-- icon --> */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" className="bi bi-wallet2" viewBox="0 0 16 16">
@@ -92,7 +97,7 @@ const Services = () => {
             </div>
             <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;" data-wow-duration="1s" data-wow-delay=".3s">
                 {/* <!-- service block --> */}
-                <div className="py-8 px-12 mb-12 border-b-4 bg-neutral-900 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="py-8 px-12 mb-12 border-b-4 bg-neutral-900 transform transition duration-300 ease-in-out hover:-translate-y-2 animate__animated animate__fadeInUp animate__delay-4s">
                     <div className="inline-block text-white-900 mb-4">
                         {/* <!-- icon --> */}
                         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" className="bi bi-funnel" viewBox="0 0 16 16">
