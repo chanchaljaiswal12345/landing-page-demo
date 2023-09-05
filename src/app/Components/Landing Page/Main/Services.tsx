@@ -2,9 +2,10 @@
 
 const Services = () => {
     return (
-        <div>
+        <div >
+            <section id="ServicesId">
             {/* <!-- component --> */}
-<div id="services" className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-gray-950">
+<div className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-gray-950">
     <div className="container xl:max-w-6xl mt-0.5 mx-auto px-4 ">
         {/* <!-- Heading start --> */}
         <header className=" text-left  mx-auto mb-12 lg:px-20 animate__animated animate__fadeInLeft animate__delay-3s">
@@ -113,6 +114,7 @@ const Services = () => {
         {/* <!-- end row --> */}
     </div>
 </div>
+</section>
         </div>
     )
 }

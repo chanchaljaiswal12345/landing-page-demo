@@ -3,6 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div>
+      <section id="AboutId">
         {/* <!-- component --> */}
 <div className="flex flex-col bg-black">
         <div className="">
@@ -113,6 +114,7 @@ const About = () => {
       </div>
     </div>
   </div>
+</section>
 </section>
     </div>
   )

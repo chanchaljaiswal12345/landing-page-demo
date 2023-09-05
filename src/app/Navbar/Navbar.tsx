@@ -1,4 +1,7 @@
 import Link from "next/link";
+// @ts-ignore
+
+// import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -37,22 +40,56 @@ const Navbar = () => {
           </button>
           <div className="hidden w-full md:block md:w-auto " id="navbar-default">
             <ul className="font-custom animate__animated animate__fadeInLeft animate__delay-0.5s font-medium flex flex-col p-4 md:p-0 mt-4 border border-black-100 rounded-lg bg-black-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black dark:bg-black-800 md:dark:bg-black-900 dark:border-black-700">
-                
+              
               <li>
-                <Link href="/home">HOME</Link>
+                <Link href="#IntroSectionId"
+                         
+                        >HOME</Link>
               </li>
               <li>
-                <Link href="/about">ABOUT US</Link>
+                <Link  href="#AboutId"  
+           >ABOUT US</Link>
               </li>
               <li>
-                <Link href="/services">SERVICES</Link>
+                <Link  href="#TestimonialsId"  
+           >TESTIMONIALS</Link>
               </li>
               <li>
-                <Link href="/pricing">WORKS</Link>
+                <Link  href="#ServicesId"  
+           >SERVICES</Link>
+              </li>
+              
+              {/* <li>
+                <Link to="ServicesId"  
+            smooth={true}
+            duration={500} >SERVICES</Link>
               </li>
               <li>
-                <Link href="/contact">CONTACT</Link>
+                <Link to="WorksId"  
+            smooth={true}
+            duration={500} >WORKS</Link>
               </li>
+              <li>
+                <Link to="FooterId"  
+            smooth={true}
+            duration={500}>FOOTER</Link>
+              </li>
+              <li>
+                <Link to="LstestNewsId" 
+            smooth={true}
+            duration={500}>LATESTNEWS</Link>
+              </li>
+              <li>
+                <Link to="ProjectsId" 
+            smooth={true}
+            duration={500}>PROJECTS</Link>
+              </li>
+              <li>
+                <Link to="TestimonialsId" 
+            smooth={true}
+            duration={500}>TESTIMONIALS</Link>
+              </li>  */}
+              
             </ul>
           </div>
         </div>

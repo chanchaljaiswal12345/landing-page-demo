@@ -25,6 +25,7 @@ const CardSection = () => {
   return (
     <div>
       <section
+      // id="AboutId"
         className="
         content-stretch  
     pt-20

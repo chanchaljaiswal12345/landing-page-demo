@@ -4,6 +4,7 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 const Testimonials = () => {
   return (
     <div>
+      <section id="TestimonialsId">
       {/* testimonial part */}
       <div className="flex justify-center  p-4 bg-neutral-900">
         <div className="flex flex-col justify-center items-center text-center">
@@ -146,6 +147,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
+      </section>
     </div>
   );
 };

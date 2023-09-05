@@ -3,8 +3,10 @@ import React from 'react'
 
 const IntroSection = () => {
   return (
-    <div className='flex justify-center' >
-     <div className="place-self-center animate__animated animate__fadeInLeft animate__delay-0.5s">
+    <div>
+      <div className="flex justify-center px-8">
+        {/* <div className="place-self-center animate__animated animate__fadeInUp animate__delay-0.5s"> */}
+        <div className="place-self-center animate__animated animate__fadeInLeft animate__delay-0.5s">
           <p className='text-custom-primary font-custom' >CREATIVE MIND, CREATIVE WORKS.</p>
           <h1 className="mt-6  max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl font-custom dark:text-white">We Are Digital Agency</h1>
           <button
@@ -15,8 +17,9 @@ const IntroSection = () => {
           </button>
         </div>
         <div className="hidden  lg:flex">
-          <Image style={{clipPath: 'inset(0 0 0 43%)'}} width={900} height={500} src="https://wp-themes.com/wp-content/themes/zeever/assets/img/background.webp" alt="mockup" />
+          <Image width={900} height={500} src="https://wp-themes.com/wp-content/themes/zeever/assets/img/background.webp" alt="mockup" />
         </div>
+      </div>
     </div>
   )
 }
